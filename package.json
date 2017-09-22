@@ -1,0 +1,24 @@
+{
+  "name": "jquery-tabs",
+  "version": "1.0.0",
+  "description": "jQuery plugin for creating horizontal and vertical tabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantajitjg/jquery-tabs.git"
+  },
+  "keywords": [
+    "tabs",
+    "horizontal-tabs",
+    "vertical-tabs"
+  ],
+  "author": "Anantajit JG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anantajitjg/jquery-tabs/issues"
+  },
+  "homepage": "https://github.com/anantajitjg/jquery-tabs#readme"
+}
