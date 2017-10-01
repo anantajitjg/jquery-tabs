@@ -1,0 +1,45 @@
+@mixin box-sizing($value) {
+    -webkit-box-sizing: $value;
+    box-sizing: $value;
+}
+
+@mixin display-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin display-inline-flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+@mixin flex-direction($direction) {
+    @if $direction==horizontal {
+        -webkit-box-orient: horizontal;
+    }
+    @else {
+        -webkit-box-orient: vertical;
+    }
+    @if $direction==row-reverse or $direction==column-reverse {
+        -webkit-box-direction: reverse;
+    }
+    @else {
+        -webkit-box-direction: normal;
+    }
+    -ms-flex-direction: $direction;
+    flex-direction: $direction;
+}
+
+@mixin flex($value...) {
+    -webkit-box-flex: $value;
+    -ms-flex: $value;
+    flex: $value;
+}
+
+@mixin transition($value...) {
+    -webkit-transition: $value;
+    -o-transition: $value;
+    transition: $value;
+}
