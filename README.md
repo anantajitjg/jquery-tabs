@@ -1,2 +1,2 @@
-# jquery-tabs
-jQuery plugin to create horizontal and vertical tabs
+# jQuery Tabs
+A very lightweight jQuery plugin to create simple horizontal and vertical tabs.
